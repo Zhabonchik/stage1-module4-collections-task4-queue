@@ -20,6 +20,6 @@ public class DishOrderDeterminer {
             }
             i = i % numberOfDishes + 1;
         }
-        return queue.stream().toList();
+        return new ArrayList <Integer> (queue);
     }
 }
